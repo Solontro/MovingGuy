@@ -10,8 +10,14 @@
 #import "Map.h"
 #import "HelloWorldLayer.h"
 
+// The purpose of this class is to provide a MiniMap to be
+// always shown in the bottom right corner of the main view.
+// The MiniMap has black dots for all map positions and a blue
+// dot for the correct position.
 @implementation MiniMap
 
+// Creates a MiniMap of width and height 100 and a slightly
+// off-red color.
 -(id) init
 {
     if( (self=[super initWithColor:ccc4(255,50,50,255)] )){
@@ -21,6 +27,8 @@
     return self;
 }
 
+// Fills the MiniMap with black and blue dot spirtes according to
+// Map values.
 -(void) fill: (int)xSize :(int)ySize :(int)xNow :(int)yNow {
     for (int i = 0; i < xSize; i++) {
         for (int j = 0; j < ySize; j++) {

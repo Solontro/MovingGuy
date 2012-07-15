@@ -9,13 +9,16 @@
 #import "Obstacle.h"
 #import "HelloWorldLayer.h"
 
-
+// The purpose of this class is to interact with Spongebob
+// as he moves, essentially being obstacles with special
+// reactions to contact with Spongebob.
 @implementation Obstacle
 
 @synthesize type;
 @synthesize sprite;
 
-
+// Initializes an obstacle with a random image (knife, cake, or cookie).
+// Also sets the obstacles type appropriately.
 - (id)init {
     int choice = (arc4random()%3)+1;
     if (choice == 1 ) {

@@ -9,6 +9,9 @@
 #import "Map.h"
 #import "HelloWorldLayer.h"
 
+// The purpose of this class is to provide a map for Spongebob.
+// It is used not only to decide color and obstacle position, but
+// also to orient the MiniMap.
 @implementation Map
 
 @synthesize array;
@@ -17,6 +20,9 @@
 @synthesize xNow;
 @synthesize yNow;
 
+// Initializes a Map with x and y sizes (2DMutableArray).
+// Sets xNow and yNow to center position on map.
+// Uses an algorithm to help scale coloring based on map size.
 - (id)init:(int)x :(int)y {
     NSMutableArray *outer = [[NSMutableArray alloc] initWithCapacity:xSize];
     xSize = x;

@@ -13,6 +13,7 @@
 
 
 // HelloWorldLayer implementation
+// This class controls the main layer.
 @implementation HelloWorldLayer
 
 @synthesize joystick;
@@ -37,7 +38,8 @@
 	return scene;
 }
 
-// on "init" you need to initialize your instance
+// Initializes class with spongebob image, joystick, and minimap,
+// appropriately allocating z values.
 -(id) init
 {       if( (self=[super initWithColor:ccc4(255,255,255,255)] )){
         CGSize winSize = [[CCDirector sharedDirector] winSize];
@@ -59,10 +61,11 @@
         [self addChild:mm z:2];
     
     }
-    NSLog(@"WTF");
     return self;
 }
 
+// Adds an obstacle specific to the position on the MiniMap.
+// Also removes the old obstacle if the layer has one.
 - (void)addObstacle {
     if (self.hasObstacle) [self removeChild:obstacle.sprite cleanup:YES];
     if (map.xNow == map.xSize/2 && map.yNow == map.ySize/2) {
@@ -79,6 +82,8 @@
     
 }
 
+// Reacts to contact with an obstace depending on the type of obstacle.
+// (Knife 'kills', cookie flips, cake turns background blue)
 - (void)onContact {
     if (obstacle.type ==1) {
         [self setMain:160 :240];
@@ -92,6 +97,8 @@
     }
 }
 
+// Returns to the 'main' screen (the middle of the MiniMap
+// Also removes obstacles.
 - (void)setMain:(int)x :(int)y {
     NSNumber *num = [[map.array objectAtIndex:map.xSize/2] objectAtIndex:map.ySize/2];
     double c = [num doubleValue];
@@ -104,7 +111,9 @@
 }
 
 
-
+// Reacts to touch event on the joystick.
+// Reacts differently based on location of Spongebob, using the MiniMap.
+// If Spongebob collides with an obstacle, calls |onContact|.
 - (void)ccTouchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
     UITouch *touch = [touches anyObject];
     loc = [touch locationInView:[touch view]];
@@ -186,6 +195,8 @@
                    nil]];
 }
 
+// Completely unnecessary but I thought I might want this
+// for future use (to make something happen after Spongebob moves.
 -(void)spriteMoveFinished:(id)sender {
     return;
 }

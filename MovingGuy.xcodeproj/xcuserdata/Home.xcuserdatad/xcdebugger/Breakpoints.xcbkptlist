@@ -8,11 +8,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "MovingGuy/HelloWorldLayer.m"
-         timestampString = "363908957.867555"
+         timestampString = "364077767.090604"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "50"
-         endingLineNumber = "50"
+         startingLineNumber = "52"
+         endingLineNumber = "52"
          landmarkName = "-init"
          landmarkType = "5">
       </FileBreakpoint>
@@ -34,7 +34,7 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "MovingGuy/HelloWorldLayer.m"
-         timestampString = "363504793.097853"
+         timestampString = "364077767.090604"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "15"
@@ -45,11 +45,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "MovingGuy/Obstacle.m"
-         timestampString = "363510602.260249"
+         timestampString = "364077767.090604"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "18"
-         endingLineNumber = "18"
+         startingLineNumber = "20"
+         endingLineNumber = "20"
          landmarkName = "@implementation Obstacle"
          landmarkType = "3">
       </FileBreakpoint>
@@ -58,11 +58,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "MovingGuy/Obstacle.m"
-         timestampString = "363510602.260249"
+         timestampString = "364077767.090604"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "19"
-         endingLineNumber = "19"
+         startingLineNumber = "22"
+         endingLineNumber = "22"
          landmarkName = "-init"
          landmarkType = "5">
       </FileBreakpoint>
@@ -71,11 +71,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "MovingGuy/Obstacle.m"
-         timestampString = "363510602.260249"
+         timestampString = "364077767.090604"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "18"
-         endingLineNumber = "18"
+         startingLineNumber = "20"
+         endingLineNumber = "20"
          landmarkName = "@implementation Obstacle"
          landmarkType = "3">
       </FileBreakpoint>
@@ -84,11 +84,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Map.m"
-         timestampString = "363907866.74716"
+         timestampString = "364077767.090604"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "46"
-         endingLineNumber = "46"
+         startingLineNumber = "52"
+         endingLineNumber = "52"
          landmarkName = "@implementation Map"
          landmarkType = "3">
       </FileBreakpoint>
@@ -97,24 +97,24 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Map.m"
-         timestampString = "363907866.74716"
+         timestampString = "364077767.090604"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "45"
-         endingLineNumber = "45"
-         landmarkName = "-init::"
-         landmarkType = "5">
+         startingLineNumber = "51"
+         endingLineNumber = "51"
+         landmarkName = "@implementation Map"
+         landmarkType = "3">
       </FileBreakpoint>
       <FileBreakpoint
          shouldBeEnabled = "No"
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Map.m"
-         timestampString = "363897358.73148"
+         timestampString = "364077767.090604"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "36"
-         endingLineNumber = "36"
+         startingLineNumber = "42"
+         endingLineNumber = "42"
          landmarkName = "-init::"
          landmarkType = "5">
       </FileBreakpoint>
@@ -123,11 +123,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "MovingGuy/HelloWorldLayer.m"
-         timestampString = "363909563.528274"
+         timestampString = "364077767.090604"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "133"
-         endingLineNumber = "133"
+         startingLineNumber = "142"
+         endingLineNumber = "142"
          landmarkName = "-ccTouchesEnded:withEvent:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -149,11 +149,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "MovingGuy/HelloWorldLayer.m"
-         timestampString = "363909563.528274"
+         timestampString = "364077767.090604"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "207"
-         endingLineNumber = "207">
+         startingLineNumber = "218"
+         endingLineNumber = "218">
       </FileBreakpoint>
    </FileBreakpoints>
 </Bucket>
